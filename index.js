@@ -1,1 +1,5 @@
-// Write your code in this file!
+let currentHour = newDate().getHours();
+
+function getUKTime() {
+  return currentHour + 5
+}
